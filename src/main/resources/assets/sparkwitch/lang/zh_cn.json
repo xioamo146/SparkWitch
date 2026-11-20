@@ -1727,6 +1727,8 @@
   "message.sparkwitch.ferryman.pardon.prompt": "按下技能键，拒绝这次死亡……",
   "message.sparkwitch.ferryman.pardon.saved": "安息吧",
   "message.sparkwitch.ferryman.pardon.whiff": "此刻没有致命伤无需借用力量（技能进入 15 秒冷却）",
+  "message.sparkwitch.ferryman.autopardon.on": "【测试】自动免死已开启：受到致命伤时会自动按下技能键",
+  "message.sparkwitch.ferryman.autopardon.off": "【测试】自动免死已关闭",
   "message.sparkwitch.ferryman.pardon.cooling": "技能冷却中：%s 秒",
   "message.sparkwitch.ferryman.ferry.done": "+%s 金币。灵魂已渡过。",
   "message.sparkwitch.ferryman.ferry.already": "这一具你已经摆渡过。",

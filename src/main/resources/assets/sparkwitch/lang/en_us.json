@@ -1727,6 +1727,8 @@
   "message.sparkwitch.ferryman.pardon.prompt": "Press the skill key to refuse this death…",
   "message.sparkwitch.ferryman.pardon.saved": "Rest.",
   "message.sparkwitch.ferryman.pardon.whiff": "Nothing lethal needs the borrowed power (skill on a 15 s cooldown)",
+  "message.sparkwitch.ferryman.autopardon.on": "[TEST] Auto refusal on: the key is pressed by itself on a lethal hit",
+  "message.sparkwitch.ferryman.autopardon.off": "[TEST] Auto refusal off",
   "message.sparkwitch.ferryman.pardon.cooling": "Skill on cooldown: %ss",
   "message.sparkwitch.ferryman.ferry.done": "+%s coins. The soul is ferried.",
   "message.sparkwitch.ferryman.ferry.already": "You already ferried this one.",

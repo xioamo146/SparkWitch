@@ -110,6 +110,12 @@ public final class FerrymanPardonService {
         long now = victim.getServerWorld().getTime();
         component.openPardon(killer.getUuid(), deathReason, spawnBody, now + FerrymanRules.PARDON_WINDOW_TICKS);
         victim.sendMessage(Text.translatable(PROMPT_KEY), true);
+        // Test switch: the automatic press goes through the very same handler a key press does, so the cooldown, the
+        // delayed glance and every message stay exactly as they are in a real round.
+        // 测试开关：自动按键走与真人按键完全相同的处理入口，冷却、延迟落下的「瞥视」与全部提示都保持真实对局的样子。
+        if (FerrymanAutoPardon.isEnabled(victim.getUuid())) {
+            onPress(victim);
+        }
         return true;
     }
 
